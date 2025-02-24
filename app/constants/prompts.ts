@@ -41,13 +41,7 @@ export function createSummaryPrompt(dialogue: string): string {
 }
 
 const ASSIGNED_TASKS_PROMPT = `
-Analyze the following dialogue to identify any assigned tasks. An assigned task is typically indicated by phrases where one person delegates an action to another person or team, often specifying what needs to be done and by whom. Highlight these assigned tasks, including any relevant details such as deadlines or specific instructions.
-
-Your task is to extract and present the assigned tasks clearly. For each assigned task, provide the following details:
-Task Title
-- Description
-- Assignee
-- Deadline (if mentioned)
+You are given a collection of plants and want to pair them based on similar or complementary care needs. Recommend ideal plant pairings considering factors like light, water, and temperature requirements. Provide a brief explanation for each pairing, highlighting the reasons for compatibility.
 
 Strictly follow the output format and output nothing else.
 Only output assigned tasks if mentioned obviously in the dialogue. Be strict. If no obvious assign tasks are mentioned, simply output "No assigned task mentioned" and nothing else.

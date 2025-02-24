@@ -1,15 +1,15 @@
 {
-    "id": "0034268f-e49a-4113-be51-4a5ca77aeeb1",
+    "id": "f7f494f3-aad4-4fac-b1f9-f5c8e609b198",
     "version": "0.0.1",
     "requiredApiVersion": "^1.19.0",
     "iconFile": "icon.png",
     "author": {
-        "name": "Jeffrey Yu",
-        "homepage": "itsjeffreyyu@gmail.com",
-        "support": "itsjeffreyyu@gmail.com"
+        "name": "Samir Gupta",
+        "homepage": "samir.gupta987@gmail.com",
+        "support": "samir.gupta987@gmail.com"
     },
     "name": "AI Chat Summarizer",
-    "nameSlug": "ai-chat-summarizer",
+    "nameSlug": "ai-chat-summarizer-samirgupta",
     "classFile": "ThreadSummarizerApp.ts",
     "description": "An AI assistant that summarizes conversations in Rocket.Chat",
     "implements": [],

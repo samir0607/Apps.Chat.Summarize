@@ -24,7 +24,7 @@ import { App } from '@rocket.chat/apps-engine/definition/App';
 import { IMessageRaw } from '@rocket.chat/apps-engine/definition/messages';
 
 export class SummarizeCommand implements ISlashCommand {
-	public command = 'chat-summary';
+	public command = 'chat-summary-samirgupta';
 	public i18nParamsExample = 'Summarize messages in a thread or channel';
 	public i18nDescription = '';
 	public providesPreview = false;
