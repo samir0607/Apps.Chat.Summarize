@@ -19,5 +19,5 @@
 		"lint": "eslint . --fix --max-warnings=0",
 		"format": "prettier . --write"
 	},
-	"type": "module"
+	"type": "commonjs"
 }
